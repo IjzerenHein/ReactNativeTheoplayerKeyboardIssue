@@ -209,6 +209,7 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				D9B6B751E2AEDF3F7AB29F2D /* [CP] Copy Pods Resources */,
+				A77B7467B5AB0CADC3A06232 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +232,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				0D7507D506130F6246FD97BE /* [CP] Copy Pods Resources */,
+				435ABD984A4A005965E04523 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +254,7 @@
 				2D02E4791E0B4A5D006451C7 /* Resources */,
 				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
 				42686649B799B0EA1ADB4648 /* [CP] Copy Pods Resources */,
+				0282ECECAC63AAC3DB701FB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,6 +274,7 @@
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
 				84F93B44286727BF8D357577 /* [CP] Copy Pods Resources */,
+				DB737ACA76D173CCC97044EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -378,6 +382,23 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		0282ECECAC63AAC3DB701FB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		0D7507D506130F6246FD97BE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,6 +445,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		435ABD984A4A005965E04523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue/Pods-ReactNativeTheoplayerKeyboardIssue-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue/Pods-ReactNativeTheoplayerKeyboardIssue-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue/Pods-ReactNativeTheoplayerKeyboardIssue-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5227897DA0E4608219DEAFFA /* [CP] Check Pods Manifest.lock */ = {
@@ -487,6 +525,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A77B7467B5AB0CADC3A06232 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue-ReactNativeTheoplayerKeyboardIssueTests/Pods-ReactNativeTheoplayerKeyboardIssue-ReactNativeTheoplayerKeyboardIssueTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue-ReactNativeTheoplayerKeyboardIssueTests/Pods-ReactNativeTheoplayerKeyboardIssue-ReactNativeTheoplayerKeyboardIssueTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue-ReactNativeTheoplayerKeyboardIssueTests/Pods-ReactNativeTheoplayerKeyboardIssue-ReactNativeTheoplayerKeyboardIssueTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BC8CB606DF6125BE2BCE6F48 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,6 +601,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue-ReactNativeTheoplayerKeyboardIssueTests/Pods-ReactNativeTheoplayerKeyboardIssue-ReactNativeTheoplayerKeyboardIssueTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB737ACA76D173CCC97044EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS-ReactNativeTheoplayerKeyboardIssue-tvOSTests/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS-ReactNativeTheoplayerKeyboardIssue-tvOSTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS-ReactNativeTheoplayerKeyboardIssue-tvOSTests/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS-ReactNativeTheoplayerKeyboardIssue-tvOSTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS-ReactNativeTheoplayerKeyboardIssue-tvOSTests/Pods-ReactNativeTheoplayerKeyboardIssue-tvOS-ReactNativeTheoplayerKeyboardIssue-tvOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {

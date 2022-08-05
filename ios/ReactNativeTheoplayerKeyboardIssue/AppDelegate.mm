@@ -25,6 +25,10 @@
 @end
 #endif
 
+#if TARGET_OS_TV
+#import <THEOplayerSDK/THEOplayerSDK-Swift.h>
+#endif
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -55,6 +59,11 @@
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   UIViewController *rootViewController = [UIViewController new];
   rootViewController.view = rootView;
+  
+#if TARGET_OS_TV
+  [THEOplayer prepareWithFirstViewController: [UIViewController new]];
+#endif
+  
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   return YES;

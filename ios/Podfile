@@ -5,6 +5,9 @@ source 'https://github.com/react-native-tvos/react-native-tvos-podspecs.git'
 source 'https://cdn.cocoapods.org/'
 install! 'cocoapods', :deterministic_uuids => false
 
+# Explicitely set Swift-version for react-native-theoplayer
+ENV['SWIFT_VERSION'] = '5'
+
 target 'ReactNativeTheoplayerKeyboardIssue' do
 
   platform :ios, '12.0'

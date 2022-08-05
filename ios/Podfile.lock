@@ -198,6 +198,9 @@ PODS:
   - React-jsinspector (0.68.2-4)
   - React-logger (0.68.2-4):
     - glog
+  - react-native-theoplayer (1.3.0):
+    - React-Core
+    - THEOplayerSDK-basic
   - React-perflogger (0.68.2-4)
   - React-RCTAnimation (0.68.2-4):
     - RCT-Folly (= 2021.06.28.00-v2)
@@ -255,6 +258,7 @@ PODS:
     - React-jsi (= 0.68.2-4)
     - React-logger (= 0.68.2-4)
     - React-perflogger (= 0.68.2-4)
+  - THEOplayerSDK-basic (3.6.1)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -279,6 +283,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
+  - react-native-theoplayer (from `../node_modules/react-native-theoplayer`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
   - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
@@ -290,6 +295,10 @@ DEPENDENCIES:
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  trunk:
+    - THEOplayerSDK-basic
 
 EXTERNAL SOURCES:
   boost:
@@ -330,6 +339,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
+  react-native-theoplayer:
+    :path: "../node_modules/react-native-theoplayer"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTAnimation:
@@ -373,6 +384,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 69998709d184758ab43b36b4b3d4e2f3dfa727e7
   React-jsinspector: 533ce03c1b39fe89091c34c3f1d4f90c4080c9f5
   React-logger: b6676acd03e5ffc26e27caa8e6cfd2110047d8dc
+  react-native-theoplayer: 28539a68ae4089c051ea19463ffeaa0b7f93d4bb
   React-perflogger: 65d5b3117bd17bd53d48c3ce8e9a5224a205e5ca
   React-RCTAnimation: 8a9783742bf3e47dab7239abec854d1fe34e6548
   React-RCTBlob: 8eed0fc6602c762a44469ad55b881786e4fa150c
@@ -383,8 +395,9 @@ SPEC CHECKSUMS:
   React-RCTText: 9d87b82ba76c5936f42bd8d6f14c82572eaf60ce
   React-runtimeexecutor: df13f4f439d1b35950355cb8abea1ef7d646a8a5
   ReactCommon: 6b48d0e892d3b34906782e181dda40adbc9e5b8b
+  THEOplayerSDK-basic: a64ddb55de397c078896beebbaf70dd39e4fa974
   Yoga: 8233aafad0e43914d05d7675ec55bda8ce523e74
 
-PODFILE CHECKSUM: 26adb46c556b09e2fcbc74ffa66f35fcca0a2eae
+PODFILE CHECKSUM: 829604bf2390d0f1d5df258af3e60e9e351f02e0
 
 COCOAPODS: 1.11.3

@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "react": "17.0.2",
-    "react-native": "npm:react-native-tvos@0.68.2-4"
+    "react-native": "npm:react-native-tvos@0.68.2-4",
+    "react-native-theoplayer": "^1.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
